@@ -1,0 +1,837 @@
+fileIcons:
+	ActionScript: # Or Flash-related
+		icon: "as"
+		colour: "medium-blue"
+		match: [
+			".swf"
+			".as"
+			".jsfl"
+			".swc"
+		]
+
+	Ada:
+		icon: "ada"
+		match: /\.(ada|adb|ads)$/i
+		colour: "medium-blue"
+
+	Angular:
+		icon: "angular"
+		match: /^angular[^.]*\.js$/i
+		colour: "medium-red"
+
+	Arduino:
+		icon: "arduino"
+		match: ".ino"
+		colour: "dark-cyan"
+
+	"ASP.net":
+		icon: "asp"
+		colour: "dark-blue"
+		match: [
+			".asp"
+			".asax"
+			".ascx"
+			".ashx"
+			".asmx"
+			".aspx"
+			".axd"
+		]
+
+	Assembly: # Or binary
+		icon: "binary"
+		colour: "medium-red"
+		match: [
+			/\.(l?a|[ls]?o|out|s|a51|asm|axf|elf|prx|puff|z80)$/i,
+			".agc"
+			".ko"
+			".lst"
+			/\.((c([+px]{2}?)?-?)?objdump|bsdiff|bin|dat|pak|pdb)$/i
+			".d-objdump"
+			/\.gcode|\.gco/i
+			/\.rpy[bc]$/i
+			/\.py[co]$/i
+			".swp"
+			".DS_Store"
+		]
+
+	AutoHotkey:
+		icon: "ahk"
+		colour: "dark-blue"
+		match: [
+			".ahk"
+			".ahkl"
+		]
+
+	AutoIt:
+		icon: "autoit"
+		match: ".au3"
+		colour: "medium-purple"
+
+	Backbone:
+		icon: "backbone"
+		match: /^backbone([-.]min|dev)?\.js$/i
+		colour: "dark-blue"
+
+	BibTeX:
+		icon: "bibtex"
+		colour: "auto-red"
+		match: [
+			".cbx"
+			".bbx"
+			".bib"
+			".bst"
+		]
+
+	Boo:
+		icon: "boo"
+		match: ".boo"
+		colour: "medium-green"
+
+	Bower:
+		icon: "bower"
+		match: /^(\.bowerrc|bower\.json|Bowerfile)$/i
+		colour: "medium-yellow"
+
+	Brainfuck:
+		icon: "brain"
+		match: /\.bf?$/i
+		colour: "dark-pink"
+
+	Bundler:
+		icon: "bundler"
+		match: /^Gemfile(\.lock)?$/i
+		colour: "auto-blue"
+
+	"C++":
+		icon: "cpp"
+		colour: "auto-blue"
+		match: [
+			/\.c[+px]{2}$|\.cc$/i
+			/\.h[+px]{2}$/i
+			/\.[it]pp$/i
+			/\.(tcc|inl)$/i
+			".cats"
+			".idc"
+			".w"
+			".nc"
+			".upc"
+			".xpm"
+		]
+
+	"C#":
+		icon: "csharp"
+		match: ".cs"
+		colour: "auto-blue"
+
+	"C#-Script":
+		icon: "csscript"
+		match: ".csx"
+		colour: "dark-green"
+
+	Caffe:
+		icon: "caffe"
+		match: ".caffemodel"
+		colour: "medium-maroon"
+
+	Clojure:
+		icon: "clojure"
+		colour: "auto-blue"
+		match: [
+			".clj"
+			".cl2"
+			".cljc"
+			".cljx"
+			".hic"
+		]
+
+	ClojureScript:
+		icon: "cljs"
+		match: /\.cljs(cm)?$/i
+		colour: "auto-blue"
+
+	CMake:
+		icon: "cmake"
+		colour: "medium-green"
+		match: [
+			".cmake"
+			/^CMakeLists\.txt$/
+		]
+
+	COBOL:
+		icon: "cobol"
+		match: /\.(cob|ccp|cbl|cobol|cpy)$/i
+		colour: "auto-blue"
+
+	CoffeeScript:
+		icon: "coffee"
+		colour: "medium-maroon"
+		match: [
+			".coffee"
+			".cjsx"
+			".coffee.ecr"
+			".coffee.erb"
+			".litcoffee"
+			".iced"
+		]
+
+	"Common Lisp":
+		icon: "cl"
+		match: ".cl"
+		colour: "medium-orange"
+
+	Crystal:
+		icon: "crystal"
+		match: /\.e?cr$/i
+		colour: "medium-cyan"
+
+	CSS:
+		icon: "css3"
+		colour: "medium-blue"
+		match: [
+			".css"
+			".less"
+			/\.(styl|stylus)$/i
+			".scss"
+			".sass"
+		]
+
+	CUDA:
+		icon: "nvidia"
+		colour: "medium-green"
+		match: [
+			".cu"
+			".cuh"
+		]
+
+	cURL:
+		icon: "curl"
+		match: /^\.curlrc$/i
+		colour: "dark-blue"
+
+	D:
+		icon: "dlang"
+		match: /\.di?$/i
+		colour: "medium-red"
+
+	Dart:
+		icon: "dart"
+		match: ".dart"
+		colour: "medium-cyan"
+
+	Data:
+		icon: "database"
+		colour: "medium-yellow"
+		match: [
+			/\.(h|geo|topo)?json$/i
+			/\.ya?ml$/i
+			".cson"
+			".json5"
+			".http"
+			".ndjson"
+			".fea"
+			".json.eex"
+			".proto"
+			".pytb"
+			".pydeps"
+			/\.pot?$/i
+			".ejson"
+			".edn"
+			".eam.fs"
+			".qml"
+			".qbs"
+			".ston"
+			".ttl"
+			".rviz"
+			".syntax"
+			".webmanifest"
+			/^pkginfo$/
+			/^mime\.types$/i
+			/^METADATA\.pb$/
+			/[\/\\](?:magic[\/\\]Magdir|file[\/\\]magic)[\/\\][-.\w]+$/i
+			/(\\|\/)dev[-\w]+\1(?:[^\\\/]+\1)*(?!DESC|NOTES)(?:[A-Z][-A-Z]*)(?:\.in)?$/
+			"lib/icons/.icondb.js"
+			/\.git[\/\\](.*[\/\\])?(HEAD|ORIG_HEAD|packed-refs|logs[\/\\](.+[\/\\])?[^\/\\]+)$/
+		]
+
+	Delphi: # Pascal IDE
+		icon: "delphi"
+		colour: "medium-red"
+		match: [
+			".dfm"
+			".dpr"
+		]
+
+	Docker:
+		icon: "docker"
+		colour: "dark-blue"
+		match: [
+			/^(Dockerfile|docker-compose)|\.docker(file|ignore)$/i
+			/^docker-sync\.yml$/i
+		]
+
+	Elixir:
+		icon: "elixir"
+		colour: "dark-purple"
+		match: [
+			".ex"
+			/\.(exs|eex)$/i
+			/^mix\.(exs?|lock)$/i
+		]
+
+	Ember:
+		icon: "ember"
+		match: /^ember(\.|(-[^.]+)?-(\d+\.)+(debug\.)?)js$/i
+		colour: "medium-red"
+
+	Erlang:
+		icon: "erlang"
+		colour: "medium-red"
+		match: [
+			".erl"
+			".beam"
+			".hrl"
+			".xrl"
+			".yrl"
+			".app.src"
+			/^Emakefile$/
+			/^rebar(\.config)?\.lock$/i
+		]
+
+	Fortran:
+		icon: "fortran"
+		colour: "medium-maroon"
+		match: [
+			".f"
+			".f90"
+			".f03"
+			".f08"
+			".f77"
+			".f95"
+			".for"
+			".fpp"
+		]
+
+	FSharp:
+		icon: "fsharp"
+		match: /\.fs[xi]?$/i
+		colour: "medium-blue"
+
+	"GameMaker Language":
+		icon: "gml"
+		match: ".gml"
+		colour: "medium-green"
+
+	Git:
+		icon: "git"
+		colour: "medium-red"
+		match: /^\.git|^\.keep$|\.mailmap$/i
+
+	Go:
+		icon: "go"
+		match: ".go"
+		colour: "medium-blue"
+
+	Gradle:
+		icon: "gradle"
+		colour: "medium-blue"
+		match: [
+			".gradle"
+			"gradlew"
+		]
+
+	Groovy:
+		icon: "groovy"
+		match: /\.(groovy|grt|gtpl|gsp|gvy)$/i
+		colour: "light-blue"
+
+	Hack:
+		icon: "hack"
+		match: ".hh"
+		colour: "medium-orange"
+
+	Haskell:
+		icon: "haskell"
+		colour: "medium-purple"
+		match: [
+			".hs"
+			".hsc"
+			".c2hs"
+			".lhs"
+		]
+
+	HTML:
+		icon: "html5"
+		colour: "medium-orange"
+		match: [
+			/\.x?html?$/i
+			".cshtml"
+			".gohtml"
+			".html.eex"
+			".jsp"
+			".kit"
+			".latte"
+			".phtml"
+			".shtml"
+			".scaml"
+			".swig"
+			".vash"
+			".xht"
+			".dtml"
+			/\.html?\.ecr$/i
+			/\.(html?\.erb(\.deface)?|rhtml)$/i
+			/\.(hbs|handlebars|(mu)?stache)$/i
+			".pug"
+			".jade"
+			".ejs"
+			".haml"
+			".hamlc"
+			".haml.deface"
+			".soy"
+		]
+
+	Java:
+		icon: "java"
+		match: ".java"
+		colour: "medium-purple"
+
+	JavaScript:
+		icon: "js"
+		colour: "auto-yellow"
+		match: [
+			".js"
+			"._js"
+			".jsb"
+			".jsm"
+			".jss"
+			".es6"
+			".es"
+			".mjs"
+			".sjs"
+			".ssjs"
+			".xsjs"
+			".xsjslib"
+			".dust"
+			".js.ecr"
+			".js.erb"
+		]
+
+	JSX:
+		icon: "jsx"
+		match: ".jsx"
+		colour: "auto-blue"
+
+	Kotlin:
+		icon: "kotlin"
+		colour: "dark-blue"
+		match: [
+			".kt"
+			".ktm"
+			".kts"
+		]
+
+	Lisp:
+		icon: "lisp"
+		colour: "medium-red"
+		match: [
+			".lsp"
+			".lisp"
+			".l"
+			".nl"
+			".ny"
+			".podsl"
+			".sexp"
+		]
+
+	LLVM:
+		icon: "llvm"
+		colour: "dark-green"
+		match: [
+			".ll"
+			/\.clang-(format|tidy)$/i
+			/^ubsan\.blacklist$/i
+		]
+
+
+	Lua:
+		icon: "lua"
+		colour: "medium-blue"
+		match: [
+			".lua"
+			".pd_lua"
+			".rbxs"
+			".wlua"
+		]
+
+	Makefile: # (Or similar build systems)
+		icon: "checklist"
+		colour: "medium-yellow"
+		match: [
+			/^Makefile/
+			/^mk\.config$/
+			/\.(mk|mak|make)$/i
+			/^BSDmakefile$/i
+			/^GNUmakefile$/i
+			/^makefile\.sco$/i
+			/^Kbuild$/
+			/^makefile$/
+			/^mkfile$/i
+			/^\.?qmake$/i
+			".am"
+			".bb"
+			/^DEPS$/
+			".mms"
+			".mmk"
+			".pri"
+		]
+
+	"Manual Page":
+		icon: "manpage"
+		colour: "dark-green"
+		match: [
+			/\.(1([bcmstx]|has|in)?|[24568]|3(avl|bsm|cfgadm|in|[cmx]|qt)?|7(d|fs|i|ipp|m|p)?|9[efps]?|chem|eqn|groff|man|mandoc|mdoc|me|mom|nr?|nroff|pic|roff?|tmac|tmac-u|tr|troff)$/i
+			/\.(rnh|rno|run|runoff)$/i
+			/^tmac\.|^(mmn|mmt|toc\.entries)$/i
+			/([\\\/])(?:man(\w+)\1[^\\\/]+\.\2|(?:tmac|eqnchar)\.d\1(?:ms\.)?[^\\\/.]+(?:\.in)?)$/
+		]
+
+	Markdown:
+		icon: "markdown"
+		match: /\.(md|mdown|markdown|mkd|mkdown|mdwn|mkdn|rmd|ron|pmd)$/i
+		colour: "medium-blue"
+
+	NSIS:
+		icon: "nsis"
+		colour: "medium-purple"
+		match: [
+			".nsi"
+			".nsh"
+		]
+
+	"Objective-C":
+		icon: "objc"
+		colour: "medium-blue"
+		match: [
+			/\.mm?$/i
+			".pch"
+			".x"
+		]
+
+	OCaml:
+		icon: "ocaml"
+		colour: "medium-orange"
+		match: [
+			".ml"
+			".mli"
+			".eliom"
+			".eliomi"
+			".ml4"
+			".mll"
+			".mly"
+		]
+
+	OpenCL:
+		icon: "opencl"
+		match: ".opencl"
+		colour: "medium-red"
+
+	"OpenGL":
+		icon: "opengl"
+		colour: "dark-cyan",
+		match: [
+			/^(GLSL|GLslang)$/i,
+			/\.(glslv?|gsh|gshader)$/i,
+			/\.(vert|vrx|vertex|vsh(ader)?)$/i,
+			/\.(fra?g|fp|fsh|fshader)$/i
+		]
+
+	Pascal:
+		icon: "pascal",
+		colour: "medium-purple",
+		match: [
+			/\.pas(cal)?$/i,
+			".lpr"
+		]
+
+	Perl:
+		icon: "perl",
+		colour: "medium-purple",
+		match: [
+			/\.p(er)?l$/i,
+			".al",
+			".ph",
+			".plx",
+			".pm",
+			/\.(psgi|xs)$/i,
+			".pl6",
+			/\.[tp]6$|\.6pl$/i,
+			/\.(pm6|p6m)$/i,
+			".6pm",
+			".nqp",
+			".p6l",
+			".pod6",
+			/^Rexfile$/
+		]
+
+	PHP:
+		icon: "php"
+		colour: "dark-blue",
+		match: [
+			/\.php([st\d]|_cs)?$/i,
+			/^Phakefile/
+		]
+
+	PowerShell:
+		icon: "powershell"
+		colour: "medium-blue";
+		match: [
+			".ps1",
+			".psd1",
+			".psm1",
+			".ps1xml"
+		]
+
+	Processing:
+		icon: "processing"
+		match: ".pde"
+		colour: "dark-blue"
+
+	Prolog:
+		icon: "prolog",
+		colour: "medium-blue",
+		match: [
+			".pro",
+			".prolog",
+			".yap"
+		]
+
+	Python:
+		icon: "python"
+		colour: "dark-blue"
+		match: [
+			".py"
+			".ipy"
+			".isolate"
+			".pep"
+			".gyp"
+			".gypi"
+			".pyde"
+			".pyp"
+			".pyt"
+			".py3"
+			".pyi"
+			".pyw"
+			".tac"
+			".wsgi"
+			".xpy"
+			".rpy"
+			/\.?(pypirc|pythonrc|python-venv)$/i
+			/^(SConstruct|SConscript)$/
+			/^(Snakefile|WATCHLISTS)$/
+			/^wscript$/
+		]
+
+	R:
+		icon: "r"
+		match: /\.(r|Rprofile|rsx|rd)$/i
+		colour: "medium-blue"
+
+	Readme:
+		icon: "book"
+		colour: "medium-blue"
+		match: [
+			/^README(\b|_)|^(licen[sc]es?(\.mysql)?|(read|readme|click|delete|keep|test)\.me)$|\.(readme|1st|licen[sc]es?)$/i
+			/^(notice|bugs|changes|change[-_]?log([-._]?\d+)?|contribute|contributing|contributors|copying(\.regex)?|hacking|history|install|maintainers|manifest|more\.stuff|notes|problems|projects|revision|terms|thanks|warnings)(_\w+)?$/i
+			/\b(changelog|copying(v?\d)?|install|read[-_]?me)\b|^licen[sc]es?[-._]/i
+			/^news([-_.]?[-\d]+)?$/i
+		]
+
+	RegExp:
+		icon: "regex"
+		match: /\.regexp?$/i
+		colour: "medium-green"
+
+	RSS:
+		icon: "rss"
+		match: ".rss"
+		colour: "medium-orange"
+
+	Ruby:
+		icon: "ruby"
+		colour: "medium-red"
+		match: [
+			/\.(rb|ru|ruby|erb|gemspec|god|mspec|pluginspec|podspec|rabl|rake|opal)$/i
+			/^\.?(irbrc|gemrc|pryrc|ruby-(gemset|version))$/i
+			/^(Appraisals|(Rake|[bB]uild|Cap|Danger|Deliver|Fast|Guard|Jar|Maven|Pod|Puppet|Snap)file(\.lock)?)$/
+			/\.(jbuilder|rbuild|rb[wx]|builder)$/i
+			/^rails$/
+			".watchr"
+		]
+
+	Rust:
+		icon: "rust"
+		colour: "medium-maroon"
+		match: [
+			".rs"
+			".rlib"
+		]
+
+	Scala:
+		icon: "scala"
+		match: /\.(sc|scala)$/i
+		colour: "medium-red"
+
+	Scheme:
+		icon: "scheme"
+		colour: "medium-red"
+		match: [
+			".scm"
+			".sld"
+			".sps"
+		]
+
+	Shell:
+		icon: "terminal"
+		colour: "medium-purple"
+		match: [
+			/\.(sh|rc|bats|bash|tool|install|command)$/i
+			/^(\.?bash(rc|[-_]?(profile|login|logout|history|prompt))|_osc|config|install-sh|PKGBUILD)$/i
+			/\.(ksh|mksh|pdksh)$/i
+			".sh-session"
+			/\.zsh(-theme|_history)?$|^\.?(antigen|zpreztorc|zlogin|zlogout|zprofile|zshenv|zshrc)$/i
+			/\.fish$|^\.fishrc$/i
+			/^\.?(login|profile)$/
+			".inputrc"
+			".tmux"
+			/^(configure|config\.(guess|rpath|status|sub)|depcomp|libtool|compile)$/
+			/^\/(private\/)?etc\/([^/]+\/)*(profile$|nanorc$|rc\.|csh\.)/i
+			/^\.?cshrc$/i
+			".profile"
+			".tcsh"
+			".csh"
+		]
+
+	SQL:
+		icon: "sql"
+		colour: "medium-orange"
+		match: [
+			/\.(my)?sql$/i
+			".ddl"
+			".udf"
+			".hql"
+			".viw"
+			".prc"
+			".cql"
+			".db2"
+		]
+
+	SVG:
+		icon: "svg"
+		match: ".svg"
+		colour: "dark-yellow"
+
+	Swift:
+		icon: "swift"
+		match: ".swift"
+		colour: "medium-orange"
+
+	TeX:
+		icon: "tex"
+		colour: "auto-blue"
+		match: [
+			".tex"
+			".ltx"
+			".aux"
+			".sty"
+			".dtx"
+			".cls"
+			".ins"
+			".lbx"
+			".mkiv"
+			".mkvi"
+			".mkii"
+			".texi"
+			/^hyphen(ex)?\.(cs|den|det|fr|sv|us)$/
+		]
+
+	Text:
+		icon: "text"
+		colour: "medium-blue"
+		match: [
+			/\.te?xt$/i
+			/\.log$|^Terminal[-_\s]Saved[-_\s]Output$/i
+			/\.git[\/\\]description$/
+			".err"
+			".rtf"
+			/\.i?nfo$/i
+			".abt"
+			".ans"
+			".brf"
+			".dri"
+			".etx"
+			".gpi"
+			".irclog"
+			".more"
+			".msg"
+			".no"
+			".rpt"
+			".srt"
+			".sub"
+			/^(bug-report|fdl|for-release|tests)$/i
+			/\.(utxt|utf8)$/i
+			".weechatlog"
+			".uof"
+			".uot"
+			".uos"
+			".uop"
+		]
+
+	TSX: # React/Typescript
+		icon: "tsx"
+		match: ".tsx"
+		colour: "light-blue"
+
+	TypeScript:
+		icon: "ts"
+		match: ".ts"
+		colour: "medium-blue"
+
+	Unity3D:
+		icon: "unity3d"
+		colour: "dark-blue"
+		match: [
+			".anim",
+			".asset"
+			".mat"
+			".meta"
+			".prefab"
+			".unity"
+			".unityproj"
+		]
+
+	UnrealScript:
+		icon: "unreal"
+		colour: "dark-blue"
+		match: ".uc"
+
+	Vue:
+		icon: "vue"
+		match: ".vue"
+		colour: "light-green"
+
+	WebAssembly:
+		icon: "wasm"
+		colour: "medium-blue"
+		match: [
+			/\.was?t$/i
+			".wasm"
+		]
+
+	Windows:
+		icon: "windows"
+		colour: "medium-purple"
+		match: [
+			".bat"
+			".cmd"
+			/\.(exe|com|msi)$/i
+			".reg"
+		]

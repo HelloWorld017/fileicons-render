@@ -1,0 +1,20 @@
+.apache-icon:before       { .mf; content: "\f102"; top: 3px; font-size: 15px; }
+.archlinux-icon:before    { .mf; content: "A";     top: 1px; font-size: 15px; }
+.c-icon:before            { .mf; content: "\f106"; top: 1px; font-size: 13px; }
+.cpp-icon:before          { .mf; content: "\f10b"; top: 1px; font-size: 14px; }
+.csharp-icon:before       { .mf; content: "\f10c"; top: 1px; font-size: 14px; }
+.debian-icon:before       { .mf; content: "\f111"; top: 1px; font-size: 14px; }
+.elixir-icon:before       { .mf; content: "\f113"; top: 1px; font-size: 14px; }
+.gnome-icon:before        { .mf; content: "\f119"; top: 1px; font-size: 14px; }
+.haskell-icon:before      { .mf; content: "\f121"; top: 2px; font-size: 16px; }
+.java-icon:before         { .mf; content: "\f126"; top: 2px; font-size: 16px; }
+.js-icon:before           { .mf; content: "\f129"; top: 1px; font-size: 14px; }
+.msql-icon:before         { .mf; content: "\f136"; top: 2px; font-size: 15px; .sharpen; }
+.objc-icon:before         { .mf; content: "\f13e"; top: 2px; font-size: 16px; }
+.osx-icon:before          { .mf; content: "\f141"; top: 1px; font-size: 14px; }
+.python-icon:before       { .mf; content: "\f14c"; top: 1px; font-size: 14px; }
+.red-hat-icon:before      { .mf; content: "\f14e"; top: 2px; font-size: 14px; }
+.scala-icon:before        { .mf; content: "\f154"; top: 1px; font-size: 14px; }
+.sql-icon:before          { .mf; content: "\f10e"; top: 1px; font-size: 14px; }
+.svg-icon:before          { .mf; content: "\f15c"; top: 1px; font-size: 14px; }
+.x11-icon:before          { .mf; content: "\f16e"; top: 1px; font-size: 13px; }

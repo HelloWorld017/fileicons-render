@@ -1,0 +1,28 @@
+{
+  "name": "fileicons-render",
+  "version": "1.0.0",
+  "description": "Renders atom file icons, used in atom-discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloWorld017/fileicons-render.git"
+  },
+  "keywords": [
+    "icons",
+    "canvas"
+  ],
+  "author": "Khinenw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HelloWorld017/fileicons-render/issues"
+  },
+  "homepage": "https://github.com/HelloWorld017/fileicons-render#readme",
+  "dependencies": {
+    "canvas-prebuilt": "^2.0.0-alpha.5",
+    "cson": "^4.1.0",
+    "file-icons": "github:file-icons/atom"
+  }
+}

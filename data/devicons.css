@@ -1,0 +1,46 @@
+.angular-icon:before      { .devicons; content: "\e653"; font-size: 16px; top: 3px; }
+.appcelerator-icon:before { .devicons; content: "\e6ab"; font-size: 16px; top: 3px; }
+.appstore-icon:before     { .devicons; content: "\e613"; font-size: 16px; top: 3px; }
+.asp-icon:before          { .devicons; content: "\e67f"; font-size: 16px; top: 3px; }
+.atom-icon:before         { .devicons; content: "\e664"; font-size: 16px; top: 3px; .thicken; }
+.backbone-icon:before     { .devicons; content: "\e652"; font-size: 16px; top: 3px; }
+.bootstrap-icon:before    { .devicons; content: "\e647"; font-size: 15px; top: 2px; }
+.bower-icon:before        { .devicons; content: "\e64d"; font-size: 16px; top: 3px; .sharpen; }
+.chrome-icon:before       { .devicons; content: "\e643"; font-size: 16px; top: 3px; }
+.clojure-icon:before      { .devicons; content: "\e668"; font-size: 16px; top: 3px; .thicken; }
+.compass-icon:before      { .devicons; content: "\e661"; font-size: 14px; top: 2px; }
+.dart-icon:before         { .devicons; content: "\e698"; font-size: 15px; top: 2px; }
+.dlang-icon:before        { .devicons; content: "\e6af"; font-size: 16px; top: 3px; }
+.dojo-icon:before         { .devicons; content: "\e61c"; font-size: 16px; top: 4px; transform: scale(1.2); .thicken; }
+.dropbox-icon:before      { .devicons; content: "\e607"; font-size: 16px; top: 3px; }
+.eclipse-icon:before      { .devicons; content: "\e69e"; font-size: 16px; top: 3px; }
+.erlang-icon:before       { .devicons; content: "\e6b1"; font-size: 16px; top: 3px; }
+.extjs-icon:before        { .devicons; content: "\e68e"; font-size: 16px; top: 3px; }
+.fsharp-icon:before       { .devicons; content: "\e6a7"; font-size: 16px; left: 1px; top: 2px; }
+.git-icon:before          { .devicons; content: "\e602"; font-size: 15px; top: 2px; }
+.heroku-icon:before       { .devicons; content: "\e67b"; font-size: 16px; top: 3px; }
+.jekyll-icon:before       { .devicons; content: "\e60d"; font-size: 16px; top: 3px; .sharpen; }
+.jquery-icon:before       { .devicons; content: "\e650"; font-size: 15px; top: 2px; }
+.jqueryui-icon:before     { .devicons; content: "\e654"; font-size: 15px; top: 2px; }
+.laravel-icon:before      { .devicons; content: "\e63f"; font-size: 16px; top: 3px; .thicken; }
+.materialize-icon:before  { .devicons; content: "\e6b6"; font-size: 16px; top: 3px; transform: scale(1.2); .thicken; }
+.modernizr-icon:before    { .devicons; content: "\e620"; font-size: 16px; top: 3px; }
+.mootools-icon:before     { .devicons; content: "\e68f"; font-size: 16px; top: 3px; .sharpen; }
+.node-icon:before         { .devicons; content: "\e618"; font-size: 16px; top: 3px; }
+.perl-icon:before         { .devicons; content: "\e669"; font-size: 15px; top: 2px; }
+.prolog-icon:before       { .devicons; content: "\e6a1"; font-size: 16px; top: 3px; }
+.rails-icon:before        { .devicons; content: "\e63b"; font-size: 16px; top: 3px; }
+.raphael-icon:before      { .devicons; content: "\e65f"; font-size: 15px; top: 3px; }
+.requirejs-icon:before    { .devicons; content: "\e670"; font-size: 16px; top: 3px; }
+.rust-icon:before         { .devicons; content: "\e6a8"; font-size: 16px; top: 3px; }
+.sass-icon:before         { .devicons; content: "\e64b"; font-size: 16px; top: 3px; }
+.sencha-icon:before       { .devicons; content: "\e68c"; font-size: 16px; top: 3px; }
+.snapsvg-icon:before      { .devicons; content: "\e65e"; font-size: 16px; top: 3px; }
+.swift-icon:before        { .devicons; content: "\e655"; font-size: 16px; top: 3px; left: -1px; }
+.travis-icon:before       { .devicons; content: "\e67e"; font-size: 15px; top: 2px; }
+.uikit-icon:before        { .devicons; content: "\e673"; font-size: 15px; top: 2px; }
+.unity3d-icon:before      { .devicons; content: "\e621"; font-size: 16px; top: 3px; }
+.vim-icon:before          { .devicons; content: "\e6c5"; font-size: 16px; top: 3px; }
+.vs-icon:before           { .devicons; content: "\e60c"; font-size: 14px; top: 2px; }
+.windows-icon:before      { .devicons; content: "\e60f"; font-size: 14px; top: 2px; }
+.yeoman-icon:before       { .devicons; content: "\e67a"; font-size: 16px; top: 3px; }

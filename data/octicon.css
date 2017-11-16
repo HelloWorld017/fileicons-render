@@ -1,0 +1,21 @@
+.binary-icon:before       { .octicons; content: "\f094"; font-size: 16px; top: 1px; }
+.book-icon:before         { .octicons; content: "\f007"; font-size: 16px; top: 1px; }
+.brew-icon:before         { .octicons; content: "\f069"; font-size: 15px; top: 1px; left: 1px; }
+.checklist-icon:before    { .octicons; content: "\f076"; font-size: 17px; top: 1px; left: 1px; }
+.code-icon:before         { .octicons; content: "\f05f"; font-size: 16px; top: 1px;}
+.database-icon:before     { .octicons; content: "\f096"; font-size: 16px; top: 1px;}
+.gear-icon:before         { .octicons; content: "\f02f"; font-size: 16px; top: 1px;}
+.git-commit-icon:before   { .octicons; content: "\f01f"; font-size: 16px; top: 1px;}
+.git-merge-icon:before    { .octicons; content: "\f023"; font-size: 16px; top: 1px;}
+.github-icon:before       { .octicons; content: "\f00a"; font-size: 16px; top: 1px;}
+.graph-icon:before        { .octicons; content: "\f043"; font-size: 16px; top: 1px;}
+.image-icon:before        { .octicons; content: "\f012"; font-size: 16px; top: 1px;}
+.key-icon:before          { .octicons; content: "\f049"; font-size: 16px; top: 1px;}
+.link-icon:before         { .octicons; content: "\f0b0"; font-size: 16px; top: 1px;}
+.markdown-icon:before     { .octicons; content: "\f0c9"; font-size: 16px; top: 1px;}
+.package-icon:before      { .octicons; content: "\f0c4"; font-size: 16px; top: 1px;}
+.ruby-icon:before         { .octicons; content: "\f047"; font-size: 16px; top: 1px;}
+.secret-icon:before       { .octicons; content: "\f08c"; font-size: 16px; top: 1px;}
+.squirrel-icon:before     { .octicons; content: "\f0b2"; font-size: 15px; top: 1px;}
+.text-icon:before         { .octicons; content: "\f011"; font-size: 16px; top: 1px;}
+.zip-icon:before          { .octicons; content: "\f013"; font-size: 16px; top: 1px;}

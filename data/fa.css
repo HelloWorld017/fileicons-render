@@ -1,0 +1,24 @@
+.android-icon:before      { .fa; content: "\f17b"; font-size: 16px; top: 1px; }
+.at-icon:before           { .fa; content: "\f1fa"; font-size: 15px; top: 1px; }
+.audio-icon:before        { .fa; content: "\f028"; font-size: 15px; top: 1px; }
+.backup-icon:before       { .fa; content: "\f1da"; font-size: 13px; top: 1px; }
+.book-alt-icon:before     { .fa; content: "\f02d"; font-size: 16px; top: 2px; }
+.bullhorn-icon:before     { .fa; content: "\f0a1"; font-size: 16px; top: 2px; }
+.calc-icon:before         { .fa; content: "\f1ec"; font-size: 14px; }
+.coffee-icon:before       { .fa; content: "\f0f4"; font-size: 14px; top: 1px; }
+.css3-icon:before         { .fa; content: "\f13c"; font-size: 13px; top: 0; }
+.circle-icon:before       { .fa; content: "\f111"; font-size: 16px; top: 1px; }
+.earth-icon:before        { .fa; content: "\f0ac"; font-size: 15px; }
+.gears-icon:before        { .fa; content: "\f085"; font-size: 15px; }
+.html5-icon:before        { .fa; content: "\f13b"; font-size: 15px; top: 1px; }
+.mobile-icon:before       { .fa; content: "\f10b"; font-size: 20px; top: 2px; }
+.moon-icon:before         { .fa; content: "\f186"; font-size: 16px; top: 1px; }
+.music-icon:before        { .fa; content: "\f001"; font-size: 15px; }
+.print-icon:before        { .fa; content: "\f02f"; font-size: 15px; top: 2px; }
+.recycle-icon:before      { .fa; content: "\f1b8"; font-size: 15px; top: 2px; }
+.rss-icon:before          { .fa; content: "\f143"; font-size: 16px; top: 2px; }
+.smarty-icon:before       { .fa; content: "\f0eb"; font-size: 15px; }
+.sourcemap-icon:before    { .fa; content: "\f279"; font-size: 14px; }
+.sun-icon:before          { .fa; content: "\f185"; font-size: 14px; .thicken; }
+.toc-icon:before          { .fa; content: "\f03a"; font-size: 15px; top: 2px; }
+.wechat-icon:before       { .fa; content: "\f1d7"; font-size: 16px; top: 2px; }

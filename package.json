@@ -23,6 +23,7 @@
   "dependencies": {
     "canvas-prebuilt": "^2.0.0-alpha.5",
     "cson": "^4.1.0",
-    "file-icons": "github:file-icons/atom"
+    "file-icons": "github:file-icons/atom",
+    "is-regex": "^1.0.4"
   }
 }

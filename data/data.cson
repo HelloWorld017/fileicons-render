@@ -835,3 +835,12 @@ fileIcons:
 			/\.(exe|com|msi)$/i
 			".reg"
 		]
+		
+		RobotFramework:
+			icon: "robot"
+			colour: "light-blue"
+			match: ".robot"
+			
+		
+		
+		
